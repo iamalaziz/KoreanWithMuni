@@ -1,0 +1,116 @@
+.courses-title {
+  color: #0e1133;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 500;
+  margin: 70px 0;
+}
+.courses h3 {
+  color: #0e1133;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 15px 0 25px;
+  margin: 0;
+}
+
+.courses p {
+  color: #0e1133;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.courses .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+.courses p svg.star {
+  font-size: 20px;
+  color: #ffff00;
+}
+.courses p svg.students {
+  font-size: 20px;
+  color: #2192ff;
+}
+.courses {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.courses .card {
+  border-radius: 20px;
+  transition: all 0.1s linear;
+  box-shadow: 0 8px 24px hsl(210deg 7% 58% / 50%);
+  position: relative;
+  background-color: #fff;
+}
+.courses .card:hover {
+  box-shadow: 0 8px 10px hsl(210deg 7% 58% / 50%);
+  background-color: #f3f4f8;
+}
+
+.courses img {
+  width: 320px;
+  border-radius: 20px 20px 0 0;
+}
+.courses ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.courses li {
+  color: #0e1133;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.1s ease;
+}
+.courses li:hover {
+  color: #30a820;
+}
+.courses li svg {
+  color: #30a820;
+  background-color: rgba(48, 168, 32, 0.1);
+  border-radius: 50%;
+  padding: 4px;
+  font-weight: 900;
+
+  transition: 0.1s ease;
+}
+.courses li:hover svg {
+  color: #fff;
+  background-color: #30a820;
+}
+.more-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+.courses button {
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(
+    to right,
+    #5b86e5,
+    #36d1dc
+  );
+  background: linear-gradient(
+    to right,
+    #5b86e5,
+    #36d1dc
+  );
+  padding: 8px 100px;
+}
+
